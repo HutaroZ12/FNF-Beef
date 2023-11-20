@@ -559,7 +559,6 @@ class TitleState extends MusicBeatState {
 						FlxTween.angle(logoBl, logoBl.angle, -4, 4, {ease: FlxEase.quartInOut});
 				}, 0);
 				FlxG.camera.flash(FlxColor.WHITE, 3);
-				
 				};
 			}
 			playJingle = false;
