@@ -507,11 +507,11 @@ class TitleState extends MusicBeatState {
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
-					createCoolText(['SB Engine by'], 15);
+					createCoolText(['HTR Team by'], 15);
 				case 4:
-					addMoreText('Stefan2008', 15);
-					addMoreText('MaysLastPlay', 15);
-					addMoreText('Fearester', 15);
+					addMoreText('HutaroZ', 15);
+					addMoreText('Neverminds', 15);
+					addMoreText('AdryanGamer', 15);
 				case 5:
 					deleteCoolText();
 				case 6:
@@ -527,17 +527,13 @@ class TitleState extends MusicBeatState {
 				case 13:
 					deleteCoolText();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('Star');
 				case 15:
-					addMoreText('Night');
-				case 16:
 					addMoreText('Funkin');
-				case 17:
-					addMoreText('SB');
-				case 18:
-					addMoreText('Engine');
+				case 16:
+					addMoreText('Demo V1');
 
-				case 19:
+				case 17:
 					skipIntro();
 			}
 		}
@@ -551,7 +547,7 @@ class TitleState extends MusicBeatState {
 			{
 				remove(credGroup);
 				FlxG.camera.flash(FlxColor.WHITE, 4);
-				FlxTween.tween(gfDance, {y: 20}, 2.3, {ease: FlxEase.expoInOut, startDelay: 0.8});
+				FlxTween.tween(gfDance, {y: -100}, 2.3, {ease: FlxEase.expoInOut, startDelay: 0.8});
 				FlxTween.tween(logoBl, {y: -100}, 1.4, {ease: FlxEase.expoInOut});
 
 				logoBl.angle = -4;
@@ -563,10 +559,7 @@ class TitleState extends MusicBeatState {
 						FlxTween.angle(logoBl, logoBl.angle, -4, 4, {ease: FlxEase.quartInOut});
 				}, 0);
 				FlxG.camera.flash(FlxColor.WHITE, 3);
-				{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
-					FlxG.sound.music.fadeIn(4, 0, 0.7);
-					transitioning = false;
+				
 				};
 			}
 			playJingle = false;
