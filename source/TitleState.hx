@@ -522,39 +522,41 @@ class TitleState extends MusicBeatState {
 					deleteCoolText();
 				case 10:
 					addMoreText('Neverminds o melhor compositor');
+				
 				case 11:
-					deleteCoolText();
-				case 12:
 					addMoreText('i eu que fiz tudo kekeke');
-				case 13:
+					
+				case 12:
 					deleteCoolText();
-				case 14:
+				case 13:
 					createCoolText(['Mais pessoas da HTR Team'], 15);
-				case 15:
+				case 14:
 					addMoreText('Evidal');
 					addMoreText('Samu');
 					addMoreText('Gusaibo');
 					addMoreText('Kusanests');
+					
+				case 15:
+					deleteCoolText();
 				case 16:
-					deleteCoolText();
-				case 17:
 					addMoreText('mod by Hutaroz');
-				case 18:	
+					
+				case 17:	
 					deleteCoolText();
-				case 19:	
+				case 18:	
 					addMoreText('Star');
-				case 20:
+				case 19:
 					addMoreText('Funkin');
-				case 21:
+				case 20:
 					addMoreText('Demo V1');
-                                case 22:
+                                case 21:
 				
 					addMoreText('Ow yeah');
-                                case 23:
-					
-					addMoreText('Lesgoo');
+                                case 22:
 
-				case 24:
+					
+
+				case 23:
 					skipIntro();
 			}
 		}
