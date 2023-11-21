@@ -533,7 +533,9 @@ class TitleState extends MusicBeatState {
 				case 16:
 					addMoreText('Demo V1');
 					
-				case 16:
+				case 17:
+
+				case 18:
 					skipIntro();
 			}
 		}
