@@ -521,31 +521,32 @@ class TitleState extends MusicBeatState {
 				case 9:
 					deleteCoolText();
 				case 10:
-					createCoolText(['Forked', 'From'], -40);;
+					createCoolText(['Neverminds o melhor compositor'], 15);
 				case 11:
-					createCoolText(['Forked', 'From'], -40);;
+					createCoolText(['eu que fiz tudo'], 15);
 				case 12:
 					deleteCoolText();
 				case 13:
-					createCoolText(['Forked', 'From'], -40);;
+					createCoolText(['Mais pessoas da HTR Team'], 15);
 				case 14:
-					createCoolText(['Forked', 'From'], -40);;
+					addMoreText('Evidal', 15);
+					addMoreText('Samu', 15);
+					addMoreText('Gusaibo', 15);
+					addMoreText('Kusanests', 15);
 				case 15:
 					deleteCoolText();
 				case 16:
-					createCoolText([curWacky[0]]);
-				case 17:
-					addMoreText(curWacky[1]);
-				case 18:	
+					createCoolText(['so isso memo'], 15);
+				case 17:	
 					deleteCoolText();
-				case 19:	
+				case 18:	
 					addMoreText('Star');
-				case 20:
+				case 19:
 					addMoreText('Funkin');
-				case 21:
+				case 20:
 					addMoreText('Demo V1');
 
-				case 22:
+				case 21:
 					skipIntro();
 			}
 		}
