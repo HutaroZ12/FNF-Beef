@@ -536,7 +536,7 @@ class TitleState extends MusicBeatState {
 					
 
 				case 18:
-                                        addMoreText('lesgo')
+                                        addMoreText('lesgo');
                                 case 19:
 					
 				case 20:
